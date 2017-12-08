@@ -3,6 +3,40 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
+}
+
+header {
+  display:flex;
+  margin-top: 0;
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+main {
+  margin: auto;
+  padding-top: 69px;
+  width: 1200px;
+
+}
+#mission {
+  margin-top: 0;
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
